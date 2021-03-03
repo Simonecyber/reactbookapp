@@ -1,38 +1,99 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Slabo+27px&display=swap');
+
+
+.App{
+    min-height: 100vh;
+    background-image: linear-gradient(120deg, #d4fc79 0%, #96e6a1 100%);
+    
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.search-form{
+    min-height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.search-bar{
+    border-radius: 10px 0 0 10px;
+    width: 50%;
+    border: none;
+    padding: 10px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.search-button{
+    border-radius: 0 10px 10px 0;
+    background: greenyellow;
+    border: none;
+    padding: 10px 20px;
+    
 }
 
-.App-link {
-  color: #61dafb;
+.books{
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    flex-wrap:wrap ;
+    align-items: center;
+   
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.book{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    margin-right: auto;
+    align-items: center;
+    box-shadow: 0px 5px 20px rgb(71, 71, 71);
+    background: white;
+    padding: 25px;
+    margin-top: 30px;
+    border-radius: 10px;
+
 }
+
+.btn-view{
+    border-radius: 10px 0 10px 0;
+    border: none;
+    background: greenyellow;
+    margin-top: 20px;
+    width: 20vh;
+    height: 7vh;
+    cursor: pointer;
+    font-weight: 900;
+}
+
+.bookdetail-wrap{
+    background-image: linear-gradient(120deg, #d4fc79 0%, #96e6a1 100%);
+    
+    margin: auto;
+    padding-bottom: 3vh;;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+
+}
+
+.img-detail{
+    width: 40vh;
+    margin: auto;
+}
+
+.credits{
+    width: 80vh;
+    text-align: center;
+    padding: 3vh;
+}
+
+
+
+
+
+
+
+
+
